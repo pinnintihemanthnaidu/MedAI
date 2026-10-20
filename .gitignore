@@ -1,0 +1,62 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+
+# Temporary files
+~$*
+*.tmp
+
+# Generated patient reports & uploads
+backend/uploads/
+uploads/
+
+# Databases & SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates & Keys
+*.pem
+*.key
+*.crt
+*.pfx
+
+#model
+backend/models/disease_prediction_model.pkl
